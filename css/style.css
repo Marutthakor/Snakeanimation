@@ -110,15 +110,17 @@ html {
 }
 
 
-.circul{
+.circul {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background-color: blue;
     animation-name: cir;
     animation-duration: 8s;
-    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    /*    animation-fill-mode: forwards;*/
     position: absolute;
+    animation-iteration-count: 2;
 }
 
 @keyframes cir {
@@ -136,8 +138,85 @@ html {
 
     }
 
+    20% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    30% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    40% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    50% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    60% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    70% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    80% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    90% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+
+
+
+
 
 }
+
 .circul1 {
     width: 150px;
     height: 150px;
@@ -145,9 +224,12 @@ html {
     background-color: blue;
     animation-name: cir1;
     animation-duration: 8s;
-    animation-fill-mode:none;
+    /*    animation-fill-mode:none;*/
+    animation-direction: alternate;
     position: absolute;
+    animation-iteration-count: 2;
 }
+
 @keyframes cir1 {
     0% {
         background-color: blue;
@@ -162,6 +244,7 @@ html {
         left: calc(100% - 150px);
 
     }
+
     20% {
         background-color: blue;
         top: calc(100% - 150px);
@@ -169,18 +252,74 @@ html {
         border-radius: 0%;
     }
 
+
     30% {
 
         border-radius: 50%;
         background-color: yellow;
         left: 0%;
         top: calc(100% - 150px);
+    }
 
+    40% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
+    }
+
+    50% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
+    }
+
+    60% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
+    }
+
+    70% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
+    }
+
+    80% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
+    }
+
+    90% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
+    }
+
+    100% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
     }
 
 
-
 }
+
 .squer1 {
     width: 150px;
     height: 150px;
@@ -188,9 +327,12 @@ html {
     background-color: blue;
     animation-name: squ;
     animation-duration: 8s;
-    animation-fill-mode: forwards;
-/*    animation-play-state: paused;*/
+    /*    animation-fill-mode: forwards;
+    */
+    animation-direction: alternate;
+    /*    animation-play-state: paused;*/
     position: absolute;
+    animation-iteration-count: 2;
 }
 
 @keyframes squ {
@@ -207,7 +349,64 @@ html {
         left: calc(100% - 150px);
 
     }
- 20% {
+
+    20% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+    30% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+    40% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+    50% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+    60% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+    70% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+    80% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+    90% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+    100% {
         background-color: blue;
         top: calc(100% - 150px);
         left: calc(100% - 150px);
@@ -217,3 +416,480 @@ html {
 
 }
 
+.squer123 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    animation-name: snek12;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    position: absolute;
+    animation-iteration-count: 2;
+
+
+}
+
+
+
+@keyframes snek12 {
+    0% {
+        background-color: blue;
+        top: 0;
+        left: 0;
+
+    }
+
+    10% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    20% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+    30% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
+
+    }
+
+    40% {
+        background-color: blue;
+        top: 20%;
+        left: 0%;
+        border-radius: 0%;
+    }
+
+    50% {
+        background-color: blue;
+        top: 20%;
+        left: 0%;
+        border-radius: 0%;
+    }
+
+    60% {
+        background-color: blue;
+        top: 20%;
+        left: 0%;
+        border-radius: 0%;
+    }
+
+    70% {
+        background-color: blue;
+        top: 20%;
+        left: 0%;
+        border-radius: 0%;
+    }
+
+    80% {
+        background-color: blue;
+        top: 20%;
+        left: 0%;
+        border-radius: 0%;
+    }
+
+    90% {
+        background-color: blue;
+        top: 20%;
+        left: 0%;
+        border-radius: 0%;
+    }
+
+    100% {
+        background-color: blue;
+        top: 20%;
+        left: 0%;
+        border-radius: 0%;
+    }
+}
+
+.circul12345 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: cir123;
+    animation-duration: 8s;
+    /*    animation-fill-mode:none;*/
+    animation-direction: alternate;
+    position: absolute;
+    animation-iteration-count: 2;
+}
+
+@keyframes cir123 {
+    0% {
+        background-color: blue;
+        top: 0;
+        left: 0;
+    }
+
+    10% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    20% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+
+    30% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
+    }
+
+    40% {
+        background-color: blue;
+        top: 20%;
+        left: 0%;
+        border-radius: 0%;
+    }
+
+    50% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 20%;
+        left: calc(100% - 300px);
+    }
+
+    60% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 20%;
+        left: calc(100% - 300px);
+    }
+
+    70% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 20%;
+        left: calc(100% - 300px);
+    }
+
+    80% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 20%;
+        left: calc(100% - 300px);
+    }
+
+    90% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 20%;
+        left: calc(100% - 300px);
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 20%;
+        left: calc(100% - 300px);
+    }
+}
+
+.squer1233 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    animation-name: snek1233;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    position: absolute;
+    animation-iteration-count: 2;
+
+
+}
+
+
+
+@keyframes snek1233 {
+    0% {
+        background-color: blue;
+        top: 0;
+        left: 0;
+
+    }
+
+    10% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    20% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+    30% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
+
+    }
+
+    40% {
+        background-color: blue;
+        top: 20%;
+        left: 0%;
+        border-radius: 0%;
+    }
+
+    50% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 20%;
+        left: calc(100% - 300px);
+    }
+
+    60% {
+        background-color: blue;
+        top: calc(100% - 300px);
+        left: calc(100% - 300px);
+        border-radius: 0%;
+    }
+
+    70% {
+        background-color: blue;
+        top: calc(100% - 300px);
+        left: calc(100% - 300px);
+        border-radius: 0%;
+    }
+
+    80% {
+        background-color: blue;
+        top: calc(100% - 300px);
+        left: calc(100% - 300px);
+        border-radius: 0%;
+    }
+
+    90% {
+        background-color: blue;
+        top: calc(100% - 300px);
+        left: calc(100% - 300px);
+        border-radius: 0%;
+    }
+
+    100% {
+        background-color: blue;
+        top: calc(100% - 300px);
+        left: calc(100% - 300px);
+        border-radius: 0%;
+    }
+}
+.circul12 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: cir122;
+    animation-duration: 8s;
+    /*    animation-fill-mode:none;*/
+    animation-direction: alternate;
+    position: absolute;
+    animation-iteration-count: 2;
+}
+
+@keyframes cir122 {
+    0% {
+        background-color: blue;
+        top: 0;
+        left: 0;
+    }
+
+    10% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    20% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+
+    30% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
+    }
+
+    40% {
+        background-color: blue;
+        top: 20%;
+        left: 0%;
+        border-radius: 0%;
+    }
+
+    50% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 20%;
+        left: calc(100% - 300px);
+    }
+     60% {
+        background-color: blue;
+        top: calc(100% - 300px);
+        left: calc(100% - 300px);
+        border-radius: 0%;
+    }
+
+    70% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: calc(100% - 300px);
+        left: 20%;
+
+    }
+    80% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: calc(100% - 300px);
+        left: 20%;
+
+    }
+    90% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: calc(100% - 300px);
+        left: 20%;
+
+    }
+    100% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: calc(100% - 300px);
+        left: 20%;
+
+    }
+}
+.squer112 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    animation-name: snek112;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    position: absolute;
+    animation-iteration-count: 2;
+
+
+}
+
+
+
+@keyframes snek112 {
+    0% {
+        background-color: blue;
+        top: 0;
+        left: 0;
+
+    }
+
+    10% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 0;
+        left: calc(100% - 150px);
+
+    }
+
+    20% {
+        background-color: blue;
+        top: calc(100% - 150px);
+        left: calc(100% - 150px);
+        border-radius: 0%;
+    }
+
+    30% {
+
+        border-radius: 50%;
+        background-color: yellow;
+        left: 0%;
+        top: calc(100% - 150px);
+
+    }
+
+    40% {
+        background-color: blue;
+        top: 20%;
+        left: 0%;
+        border-radius: 0%;
+    }
+
+    50% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: 20%;
+        left: calc(100% - 300px);
+    }
+
+    60% {
+        background-color: blue;
+        top: calc(100% - 300px);
+        left: calc(100% - 300px);
+        border-radius: 0%;
+    }
+ 70% {
+        border-radius: 50%;
+        background-color: yellow;
+        top: calc(100% - 300px);
+        left: 20%;
+
+    }
+
+    80% {
+        background-color: blue;
+        border-radius: 0%;
+        top: calc(100% - 450px);
+        left: 20%;
+
+    }
+    90% {
+        background-color: blue;
+        border-radius: 0%;
+        top: calc(100% - 450px);
+        left: 20%;
+
+    }
+    100% {
+        background-color: blue;
+        border-radius: 0%;
+        top: calc(100% - 450px);
+        left: 20%;
+
+    }
+}
